@@ -25,10 +25,9 @@ public class Schule {
 
         Mensa mensa1 = new Mensa("Mensa");
 
-
-        System.out.printf("%s ist %s Jahre alt. Sie ist in %s. Klasse und hat Note %s.", schuler1.getName(),schuler1.getAge(), schuler1.getKlasse(), schuler1.getNote());
-        System.out.printf("\n%s ist %s Jahre alt und unterrichtet die %s. Klasse.", lehrer3.getName(), lehrer3.getAge(), lehrer3.getKlasse());
-        System.out.printf("\n%s ist auf dem %s. Heute hat er %s.", schuler5.getName(), shulhof1.getBezeichnung(), schuler5.getMittagessen());
-        System.out.printf("\n%s ist beim %s in der %s.", schuler2.getName(), schuler2.getMittagessen(), mensa1.getBezeichnung());
+        System.out.printf("%s ist %s Jahre alt. Sie ist in %s. Klasse und hat Note %s.", schuler1.name,schuler1.age, schuler1.klasse, schuler1.note);
+        System.out.printf("\n%s ist %s Jahre alt und unterrichtet die %s. Klasse.", lehrer3.name, lehrer3.age, lehrer3.klasse);
+        System.out.printf("\n%s ist auf dem %s. Heute hat er %s.", schuler5.name, shulhof1.bezeichnung, schuler5.mittagessen);
+        System.out.printf("\n%s ist beim %s in der %s.", schuler2.name, schuler2.mittagessen, mensa1.bezeichnung);
     }
 }
