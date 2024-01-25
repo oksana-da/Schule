@@ -72,9 +72,11 @@ public class Schueler {
     }
 
 
+
     public void essen(){
         System.out.print("- Ich habe hunger.");
         System.out.println(" Gehe in die Mensa.");
-
     }
+
+
 }

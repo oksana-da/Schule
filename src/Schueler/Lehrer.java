@@ -54,8 +54,10 @@ public class Lehrer {
     }
 
 
+
     public void lehren(){
         System.out.print("unterrichtet folgende klassen: ");
-
     }
+
+
 }

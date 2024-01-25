@@ -39,5 +39,6 @@ public class Schule {
         schulhof1.pause();
         System.out.printf("%s\n", schulhof1.bezeichnung);
 
+
     }
 }

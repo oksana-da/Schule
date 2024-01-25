@@ -36,8 +36,10 @@ public class Schulhof {
     }
 
 
+
     public void pause(){
         System.out.print("\n\nErste Pause um 10:30 in: ");
-
     }
+
+
 }
