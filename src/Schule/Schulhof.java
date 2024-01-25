@@ -14,6 +14,7 @@ public class Schulhof {
     }
 
 
+
     public String getOrt(){
         return ort;
     }

@@ -22,6 +22,7 @@ public class Schueler {
     }
 
 
+
     public String getName() {
         return name;
     }

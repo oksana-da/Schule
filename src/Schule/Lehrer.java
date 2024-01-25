@@ -18,6 +18,7 @@ public class Lehrer {
     }
 
 
+
     public String getName() {
         return name;
     }

@@ -20,6 +20,7 @@ public class Mensa {
     }
 
 
+
     public String getBezeichnung() {
         return bezeichnung;
     }
