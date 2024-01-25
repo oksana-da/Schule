@@ -2,10 +2,10 @@ package Schueler;
 
 public class Schueler {
 
-    String name;
-    String adresse;
+    private String name;
+    private String adresse;
     int age;
-    int klasse;
+    private int klasse;
     int iq;
     double note;
     String mittagessen;
@@ -19,13 +19,12 @@ public class Schueler {
         this.iq = iq;
         this.note = note;
         this.mittagessen = mittagessen;
-
     }
+
 
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -33,7 +32,6 @@ public class Schueler {
     public String getAdresse() {
         return adresse;
     }
-
     public void setAdresse(String adresse) {
         this.adresse = adresse;
     }
@@ -41,7 +39,6 @@ public class Schueler {
     public int getAge() {
         return age;
     }
-
     public void setAge(int age) {
         this.age = age;
     }
@@ -49,7 +46,6 @@ public class Schueler {
     public int getKlasse() {
         return klasse;
     }
-
     public void setKlasse(int klasse) {
         this.klasse = klasse;
     }
@@ -57,7 +53,6 @@ public class Schueler {
     public int getIq() {
         return iq;
     }
-
     public void setIq(int iq) {
         this.iq = iq;
     }
@@ -65,7 +60,6 @@ public class Schueler {
     public double getNote() {
         return note;
     }
-
     public void setNote(double note) {
         this.note = note;
     }
@@ -73,16 +67,14 @@ public class Schueler {
     public String getMittagessen() {
         return mittagessen;
     }
-
     public void setMittagessen(String mittagessen) {
         this.mittagessen = mittagessen;
     }
 
-    //Methoden
 
-    //Methoden
     public void essen(){
         System.out.print("- Ich habe hunger.");
         System.out.println(" Gehe in die Mensa.");
+
     }
 }

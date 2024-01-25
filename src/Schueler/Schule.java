@@ -20,16 +20,15 @@ public class Schule {
         Lehrer lehrer4 = new Lehrer("Klaus", "Hamburg", 31, 4, 180);
         Lehrer lehrer5 = new Lehrer("Lana", "Hamburg", 29, 5, 168);
 
-        Schulhof schulhof1 = new Schulhof("Spielplatz");
-        Schulhof schulhof2 = new Schulhof("Bewegungsgelände");
-
-        Mensa mensa1 = new Mensa("Mensa");
+        Schulhof schulhof1 = new Schulhof("Spielplatz", "vor der Schule", "Rutsche, Bänke");
+        Schulhof schulhof2 = new Schulhof("Bewegungsgelände", "hinter der Schule", "Sonnenschutz, Trampoline");
+        Mensa mensa1 = new Mensa("Mensa", 30, 180, "12:00 - 14:00", "Pasta mit Schpinat", "Pizza");
 
         System.out.printf("%s ist %s Jahre alt. Sie ist in %s. Klasse und hat Note %s.", schuler1.getName(), schuler1.getAge(), schuler1.getKlasse(), schuler1.getNote());
         System.out.printf("\n%s ist %s Jahre alt und unterrichtet die %s. Klasse.", lehrer3.getName(), lehrer3.getAge(), lehrer3.getKlasse());
         System.out.printf("\n%s ist auf dem %s. Heute hat er %s.", schuler5.getName(), schulhof1.getBezeichnung(), schuler5.getMittagessen());
 
-        System.out.printf("\n\n%s: \n", schuler2.name);
+        System.out.printf("\n\n%s: \n", schuler2.getName());
         schuler3.essen();
         System.out.printf("%s ist beim %s in der %s.", schuler2.getName(), schuler2.getMittagessen(), mensa1.getBezeichnung());
 
@@ -39,5 +38,6 @@ public class Schule {
 
         schulhof1.pause();
         System.out.printf("%s\n", schulhof1.bezeichnung);
+
     }
 }
