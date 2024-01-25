@@ -15,4 +15,8 @@ public class Schulhof {
     public void setBezeichnung(String bezeichnung) {
         this.bezeichnung = bezeichnung;
     }
+
+    public void pause(){
+        System.out.print("\n\nErste Pause um 10:30 in: ");
+    }
 }

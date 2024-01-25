@@ -55,4 +55,8 @@ public class Lehrer {
     public void setIq(int iq) {
         this.iq = iq;
     }
+
+    public void lehren(){
+        System.out.print("unterrichtet folgende klassen: ");
+    }
 }

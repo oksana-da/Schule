@@ -77,4 +77,12 @@ public class Schueler {
     public void setMittagessen(String mittagessen) {
         this.mittagessen = mittagessen;
     }
+
+    //Methoden
+
+    //Methoden
+    public void essen(){
+        System.out.print("- Ich habe hunger.");
+        System.out.println(" Gehe in die Mensa.");
+    }
 }
