@@ -1,4 +1,4 @@
-package Schueler;
+package Schule;
 
 public class Schueler {
 

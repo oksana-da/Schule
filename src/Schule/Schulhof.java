@@ -1,4 +1,4 @@
-package Schueler;
+package Schule;
 
 public class Schulhof {
 
@@ -36,9 +36,8 @@ public class Schulhof {
     }
 
 
-
     public void pause(){
-        System.out.print("\n\nErste Pause um 10:30 in: ");
+        System.out.print("\nErste Pause um 10:30 in: ");
     }
 
 
